@@ -1,0 +1,108 @@
+body {
+    background-image: url(bcourt.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    font-weight: bold; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    
+}
+
+.timer-container {
+    background-color: #1a234a;
+    width: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;   
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    max-width: 40%;
+}
+
+h1, h2 {
+    margin: 5px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    width: auto;
+    width: 30%;
+}
+
+.counter, #timer {
+    width: auto;
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    padding: 10px 40px; 
+    max-width: 10%;
+}
+
+.counter {
+    font-size: 50px;
+    min-width: 25px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+#timer {
+    font-size: 150%;
+    max-width: 10%;
+    border: solid gray 1px;
+    border-radius: 5px;
+    
+}
+
+.addButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.addOne, .addTwo, .addThree {
+    background-color: #1a234a;
+    border: solid gray 1px;
+    color: gray;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 0px;
+}
+
+.foulsCounter {
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+    margin-bottom: -5px;
+}
+
+h2 {
+    margin-bottom: 2px;
+}
+
+.timerBtns {
+    background-color: #1a234a;
+    border: solid gray 1px;
+    color: gray;
+    border-radius: 5px;
+    margin-top: -10px;
+    padding: 5px;
+}

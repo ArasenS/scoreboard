@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Timer</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="timer-container">
+            <div class="column">
+                <h1>HOME</h1>
+                <div id="counters" class="counter">0</div>
+                <div class="addButtons">
+                <button class="addOne" onclick="addOne()">+1</button>
+                <button class="addTwo" onclick="addTwo()">+2</button>
+                <button class="addThree" onclick="addThree()">+3</button>
+                </div>
+                <h2>FOULS</h2>
+                <div id="foulsCounter" class="foulsCounter">0</div>               
+                <button class="addOne" onclick="addFoul()">+1</button>                
+            </div>
+            <div class="column">
+                <div id="timer">00:00</div>
+            </div>
+            <div class="column" >
+                <h1>GUEST</h1>
+                <div id="guestCounters" class="counter">0</div>
+                <div class="addButtons">
+                <button class="addOne" onclick="addGOne()">+1</button>
+                <button class="addTwo" onclick="addGTwo()">+2</button>
+                <button class="addThree" onclick="addGThree()">+3</button>
+                </div>
+                <h2>FOULS</h2>
+                <div id="foulsGCounter" class="foulsCounter">0</div>               
+                <button class="addOne" onclick="addGFoul()">+1</button>             
+        </div>
+        <script src="script.js"></script>
+        </div>
+        <div>
+            <button class="timerBtns" onclick="startTimer()">New Game</button>
+        </div>    
+    </body>
+</html>
